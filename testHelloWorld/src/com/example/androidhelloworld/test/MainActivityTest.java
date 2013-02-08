@@ -25,9 +25,9 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 
 		resourceString = activity.getString(com.example.androidhelloworld.R.string.hello_world);
 		}
+		public void testText() throws Exception {
 
-		public void testname() throws Exception {
 			assertNotNull(view.getText().toString(), resourceString);
-		}
 
+		}
 }
